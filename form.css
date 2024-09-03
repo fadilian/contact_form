@@ -1,0 +1,79 @@
+body {
+    background-color: lightblue;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    color: black;
+}
+
+.title {
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 90%;
+    text-align: center;
+}
+
+.form {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.biodata {
+    margin: 0 auto;
+    padding: 0 auto;
+    width: 50%;
+}
+
+.data {
+    margin: 0 auto;
+    padding: 0 auto;
+    width: 80%;
+}
+
+fieldset{
+    border-radius: 10px;
+    background-color: rgb(0, 191, 255);
+}
+
+.field {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: 500;
+}
+
+.button {
+    display: block;
+    background-color: rgb(1, 219, 37);
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.button:hover {
+    background-color: rgb(69, 255, 100);
+}
+
+.button2 {
+    display: inline-block;
+    background-color: red;
+    font-size: small;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.button2:hover {
+    background-color: rgb(252, 55, 55);
+}
+
+footer {
+    font-size: medium;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    padding: 40px;
+  }

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+    <link rel="stylesheet" href="form.css" />
+</head>
+<body>
+    <main>
+        <div class="title">
+            <h2>CONTACT FORM</h2>
+            <h4>Isi Data Dibawah Ini</h4>
+        </div>
+        <div class="biodata">
+            <form class="form" action="tambah-data.php" method="post">
+                <fieldset>
+                    <legend>Biodata dan Saran</legend>
+                    <table cellpadding="5">
+                        <tr>
+                            <td><label>Nama</label></td>
+                            <td><label>:</label></td>
+                            <td><input class="field" type="text" name="nama" placeholder="Nama lengkap..." required/></td>
+                        </tr>
+                        <tr>
+                            <td><label>NIM</label></td>
+                            <td><label>:</label></td>
+                            <td><input class="field" type="number" name="nim" placeholder="Nim..." required/></td>
+                        </tr>
+                        <tr>
+                            <td><label>Kelas</label></td>
+                            <td><label>:</label></td>
+                            <td><input class="field" type="text" name="kelas" placeholder="Kelas..." required/></td>
+                        </tr>
+                        <tr>
+                            <td><label>Email</label></td>
+                            <td><label>:</label></td>
+                            <td><input class="field" type="email" name="email" placeholder="Email..." required/></td>
+                        </tr>
+                        <tr>
+                            <td><label>Telepon</label></td>
+                            <td><label>:</label></td>
+                            <td><input class="field" type="number" name="telp" placeholder="Telp..." required/></td>
+                        </tr>
+                        <tr>
+                            <td><label>Gender</label></td>
+                            <td><label>:</label></td>
+                            <td>
+                                <label><input type="radio" name="gender" value="L" /> Laki-laki</label>
+                                <label><input type="radio" name="gender" value="P" /> Perempuan</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label>Pesan</label></td>
+                            <td><label>:</label></td>
+                            <td><textarea class="field" name="pesan" rows="4" cols="50" placeholder="Masukkan pesan..."required></textarea></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><input class="button" type="submit" name="submit" value="Tambah" /></td>
+                        </tr>
+                    </table>
+                </fieldset>
+            </form>
+        </div>
+        <footer>Copyright 2024 by Fadilian Risdianto</footer>
+    </main>
+</body>
+</html>
