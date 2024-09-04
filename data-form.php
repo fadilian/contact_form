@@ -10,7 +10,7 @@
             <h2>DATA FORM</h2>
         </div>
         <div class="data">
-            <table border="1px solid black" cellpadding="5">
+            <table class="table1" border="1px solid black" cellpadding="5">
                 <thead style="background-color: rgb(0, 191, 255);">
                     <tr>
                         <th>No.</th>
