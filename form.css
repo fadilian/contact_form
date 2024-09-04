@@ -1,5 +1,7 @@
 body {
-    background-color: lightblue;
+    background-image: url('asset/pexels-lum3n-44775-167699.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
     font-size: 20px;
     font-family: Arial, sans-serif;
     color: black;
@@ -32,6 +34,11 @@ body {
 fieldset{
     border-radius: 10px;
     background-color: rgb(0, 191, 255);
+    margin-bottom: 10;
+}
+
+.table1 {
+    background-color: lightblue;
 }
 
 .field {
@@ -74,6 +81,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: black;
+    color: white;
+    text-shadow: 2px 2px 7px black;
     padding: 40px;
   }
