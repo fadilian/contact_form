@@ -14,9 +14,13 @@
         <div class="biodata">
             <form class="form" action="tambah-data.php" method="post">
                 <fieldset>
-                    <legend>Biodata dan Saran</legend>
                     <table cellpadding="5">
                         <tr>
+                            <td><label>Nama</label></td>
+                            <td><label>:</label></td>
+                            <td><input class="field" type="text" name="nama" placeholder="Nama lengkap..." required/></td>
+                        </tr>
+                        <tr></tr>
                             <td><label>Nama</label></td>
                             <td><label>:</label></td>
                             <td><input class="field" type="text" name="nama" placeholder="Nama lengkap..." required/></td>
@@ -29,7 +33,20 @@
                         <tr>
                             <td><label>Kelas</label></td>
                             <td><label>:</label></td>
-                            <td><input class="field" type="text" name="kelas" placeholder="Kelas..." required/></td>
+                            <td>
+                                <select class="field" name="kelas" required>
+                                    <option value="" disabled selected>Pilih Kelas...</option>
+                                    <option value="T3A">T3A</option>
+                                    <option value="T3B">T3B</option>
+                                    <option value="T3C">T3C</option>
+                                    <option value="T3D">T3D</option>
+                                    <option value="T3E">T3E</option>
+                                    <option value="T3F">T3F</option>
+                                    <option value="T3G">T3G</option>
+                                    <option value="T3H">T3H</option>
+                                    <option value="T3I">T3I</option>
+                                </select>
+                            </td>
                         </tr>
                         <tr>
                             <td><label>Email</label></td>
